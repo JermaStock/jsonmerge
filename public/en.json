@@ -1,0 +1,962 @@
+{
+  "routesTitles": {
+    "wallet": "Wallet",
+    "replenishment": "Replenishment",
+    "transfer": "Transfer",
+    "lots": "Lots",
+    "buy-sell": "Buy/Sell",
+    "notification": "Notification",
+    "messages": "Messages",
+    "deals": "Deals",
+    "profile": "Profile",
+    "referral": "Referral",
+    "exchange": "Exchange",
+    "menu": "Menu",
+    "trading-profile": "Trading profile",
+    "support": "Support"
+  },
+  "attaches": {
+    "verify": {
+      "label": "or drag them here",
+      "link": "Select files"
+    }
+  },
+  "transfer": {
+    "info": {
+      "title": "Information on the transfer of funds",
+      "min": "Minimum per transaction",
+      "max": "Maximum per transaction (balance)"
+    },
+    "commission": {
+      "title": "Information about commissions:",
+      "withdrawal": "External transfers",
+      "internal": "Internal transfers",
+      "from": "From",
+      "to": "to"
+    }
+  },
+  "auth": {
+    "logout": {
+      "confirm": "Are you sure you want to log out?",
+      "no": "No",
+      "title": "Logging Out",
+      "yes": "Yes"
+    },
+    "restorePassword": {
+      "email": "Email",
+      "info": "Request has been sent. If your e-mail is in the database, you will receive a letter with instructions for password recovery",
+      "recover": "Password recovery",
+      "restore": "Recover",
+      "toSignIn": "to Sign In"
+    },
+    "signIn": {
+      "alert": {
+        "error": "An error has occurred",
+        "sent": "The letter has been sent, check your mailbox"
+      },
+      "emailLogin": "Email/Login",
+      "enter": "Sign In",
+      "error": {
+        "email": {
+          "confirm": "To sign in you need to confirm your email.",
+          "noMail": "Didn't receive the letter?",
+          "resend": "Resend email"
+        }
+      },
+      "forget": "Forgot your password?",
+      "or": "or",
+      "password": "Password",
+      "signIn": "Sign In",
+      "telegram": "Via telegram"
+    },
+    "signUp": {
+      "agreement": {
+        "agreed": "Agree with a",
+        "service": "term of service"
+      },
+      "email": "Email",
+      "error": {
+        "checkMail": "Check your mailbox",
+        "confirm": "To sign in you need to confirm your email.",
+        "login": "Only letters and numbers of the Latin alphabet, no spaces or special characters"
+      },
+      "login": "Login",
+      "password": "Password",
+      "repeatPassword": "Repeat password",
+      "signUp": "Sign Up",
+      "toSignIn": "On Sign In page"
+    }
+  },
+  "buySell": {
+    "buy": "Buy",
+    "currency": "Currency",
+    "from": "From",
+    "rate": "Exchange rate",
+    "rateOf": "Rate of 1",
+    "sell": "Sell",
+    "to": "to",
+    "unavailable": "Unavailable",
+    "rateFor": "Rate for"
+  },
+  "chat": {
+    "message": "Message",
+    "noMessages": "There are no messages here yet",
+    "send": "Send"
+  },
+  "checkboxOrRadio": {
+    "all": "All",
+    "buy": "Buy",
+    "receipt": "Send a receipt for payment",
+    "sale": "Sale",
+    "terminalCrypto": "Payment for goods and services in cryptocurrency",
+    "terminalCurrency": "Payment for goods and services in currency",
+    "terminalWithdrawal": "Withdrawal of funds from the balance"
+  },
+  "deals": {
+    "createDeal": "Create deal",
+    "dealBuy": {
+      "existingDeal": "Deal",
+      "newDeal": "New deal",
+      "stages": {
+        "cancel": "Cancel deal",
+        "close": "Deal closing",
+        "stop": "Cancel",
+        "currencyReceivingWaiting": "Coin receiving",
+        "currencySendingWaiting": "Coin sending",
+        "dealClosed": {
+          "details": {
+            "afterPayment": "Details: Full name in chat after payment",
+            "card": "card"
+          },
+          "notifySeller": "If you have already transferred currency, please notify the seller in a message. To restore the transaction, contact the site support.",
+          "toDeals": "To my deals"
+        },
+        "dealClosing": {
+          "commission": "The commission was",
+          "dealClosed": "The deal is completed",
+          "dealsSummary": {
+            "from": "from user",
+            "recived": "You have received"
+          },
+          "dislike": "Dislike",
+          "like": "Like"
+        },
+        "dealDetails": {
+          "dealStarted": {
+            "deal": "Deal",
+            "launched": "launched"
+          },
+          "dialog": {
+            "areYouSure": "Are you sure you have received ",
+            "fromUser": "from user",
+            "no": "No",
+            "toAccount": "to your account",
+            "yes": "Yes"
+          }
+        },
+        "open": {
+          "alert": "The deal is open",
+          "buy": "You get",
+          "commission": "Commission",
+          "dealStart": {
+            "nextStep": "When the seller sends the details, you will automatically proceed to the next stage of the transaction",
+            "timeStart": "Within ",
+            "timeEnd": " minutes he must confirm the transaction",
+            "title": "We have notified the seller of your request",
+            "start": "We have notified the",
+            "end": " of your request"
+          },
+          "dialog": {
+            "cancelDeal": {
+              "back": "Back to deal",
+              "confirm": "Yes, I'm sure",
+              "confirmation": "Are you sure you want to cancel the deal?"
+            },
+            "openDeal": "Deal canceled"
+          },
+          "dontLeaveMessage": "Don't leave the page",
+          "openDeal": "Open deal",
+          "rateChange": {
+            "courseRateOf": "The course rate of",
+            "hasChanged": "has changed",
+            "rate": "The current rate is"
+          },
+          "sale": "You give",
+          "title": "Deal opening"
+        },
+        "paymentDeal": {
+          "confirm": "Confirm money transfer",
+          "dialog": {
+            "confirm": "Are you sure that you have transferred ",
+            "no": "No",
+            "ofUser": "of user",
+            "to": "to",
+            "yes": "Yes"
+          },
+          "sendingNotify": {
+            "accordingTo": "according to the details specified by the seller",
+            "send": "Send"
+          },
+          "warningNotify": {
+            "onlyInternalTransactions": "Only internal transfers",
+            "warning": "Violation of this rule may result in cancellation of the transaction."
+          },
+          "warningTimeout": "If you do not confirm the transfer within 30 minutes, the transaction will be automatically terminated",
+          "warningTimeoutEnd": "If you do not confirm the transfer within",
+          "warningTimeoutStart": " minutes, the transaction will be automatically terminated"
+        },
+        "paymentReceiving": "Payment receiving",
+        "paymentSending": "Payment sending",
+        "pendingCoins": {
+          "disputeInfo": "If the seller does not release the cryptocurrency, open a dispute after the timer expires",
+          "openDispute": "Open dispute"
+        },
+        "requisitesReceivingWaiting": "Requisites receiving",
+        "requisitesSendingWaiting": "Requisites sending",
+        "step": "Step"
+      }
+    },
+    "dealInfo": {
+      "dayInService": "Days in service",
+      "deals": "Total Deals",
+      "lotInfo": {
+        "conditions": "Deal conditions",
+        "from": "From",
+        "limit": "Limit",
+        "to": "To"
+      },
+      "message": "Message",
+      "orderInfo": "Order information",
+      "paymentType": "Payment type",
+      "rate": "Rate",
+      "report": "Report conditions",
+      "reportDialog": {
+        "application": "Open application",
+        "support": "in the support section",
+        "title": "In order to complain about the conditions of the lot, you must create a new request",
+        "toDeal": "Back to deal"
+      },
+      "reputation": "Reputation",
+      "reviews": "Reviews",
+      "role": {
+        "buyer": "Buyer",
+        "seller": "Seller"
+      },
+      "verification": "Verification",
+      "verified": "Verified",
+      "notVerified": "Not verified"
+    },
+    "dealSale": {
+      "existingDeal": "Deal",
+      "newDeal": "New deal",
+      "stages": {
+        "cancel": "Cancel deal",
+        "dealAcceptance": {
+          "accept": "Accept the deal",
+          "cancel": "Cancel deal",
+          "commission": "After the transaction, a service fee in the amount of",
+          "notifySecurity": "Please note that for your security reasons, it is prohibited to transfer details outside of this service.",
+          "title": "Acceptance of the transaction"
+        },
+        "dealClosed": {
+          "toDeals": "To my deals"
+        },
+        "dealClosing": {
+          "commission": "Commission was",
+          "dealClosed": "The deal is completed",
+          "description": {
+            "toUser": "to user",
+            "youSold": "You sold"
+          },
+          "dislike": "Dislike",
+          "like": "Like",
+          "title": "Closing the deal"
+        },
+        "dealDetails": {
+          "paymentInfo": {
+            "otherInfo": "full name and send to the buyer before the timer expires",
+            "yourCard": "Enter your credit card number"
+          },
+          "security": "Please note that for your security reasons, it is prohibited to transfer details outside of this service.",
+          "sendDetails": "Send details",
+          "title": "Sending details"
+        },
+        "dealDetailsPending": {
+          "alert": "Coins sent",
+          "cancelCondition": {
+            "ifUser": "If the user",
+            "then": "does not confirm the transfer within the specified time, the transaction will be automatically canceled"
+          },
+          "confirm": "Confirm payment and release coins",
+          "dialog": {
+            "areYouSure": "Are you sure you have received ",
+            "fromUser": "from user",
+            "no": "No",
+            "toAccount": "to your account",
+            "yes": "Yes"
+          },
+          "notify": "You will be notified when the buyer confirms the payment",
+          "onCard": "to a credit card",
+          "title": "Waiting for payment"
+        },
+        "sendingCoins": {
+          "confirm": "Confirm payment and release coins",
+          "confirmNotify": "Check receipt of the transfer from the user and confirm the sending of coins for the transaction",
+          "openDispute": "Open dispute",
+          "title": "Sending coins"
+        },
+        "step": "Step"
+      }
+    },
+    "description": {
+      "atTheRate": "at the rate of",
+      "buy": "Buying",
+      "for": "for",
+      "from": "from user",
+      "sale": "Selling",
+      "through": "through",
+      "to": "to the user"
+    },
+    "dispute": {
+      "accept": "Accept Dispute",
+      "acceptToResolve": "Accept the dispute to resolve disagreements",
+      "alert": "Coins sent",
+      "buyer": "The buyer",
+      "confirm": "Confirm payment and release coins",
+      "onTimerExpires": {
+        "buy": "buyer",
+        "sell": "seller",
+        "time": "When the timer expires, the dispute will be automatically closed for the benefit of the"
+      },
+      "openedAdispute": "opened a dispute",
+      "received": "has received notice that a dispute has been opened",
+      "seller": "Seller",
+      "title": "You can release the coins. In this case, the dispute will be automatically closed"
+    },
+    "notFound": "No deals found",
+    "title": "My deals"
+  },
+  "dealState": {
+    "approvement": "Awaiting confirmation",
+    "canceledClient": "Canceled by client",
+    "closed": "Closed",
+    "found": "Found",
+    "new": "New",
+    "notFound": "Not found",
+    "verified": "Verified",
+    "waiting": "Waiting"
+  },
+  "dealType": {
+    "buy": "Buy",
+    "sale": "Sale"
+  },
+  "disputeState": {
+    "accepted": "Dispute accepted",
+    "closed": "Dispute closed",
+    "opened": "Dispute opened"
+  },
+  "fastTrade": {
+    "dialog": {
+      "areYouSure": "Вы уверены, что перевели",
+      "no": "Нет",
+      "toThe": "на счет",
+      "yes": "Да"
+    }
+  },
+  "header": {
+    "auth": {
+      "login": "Sign in",
+      "settings": "Settings"
+    },
+    "defaultCurrency": "Default currency",
+    "messages": "Messages",
+    "notification": "Notifications"
+  },
+  "menu": {
+    "currency": "Main currency",
+    "info": "Information",
+    "locale": "Language",
+    "logOut": "Log Out",
+    "passwordChange": "Password Change",
+    "referral": "Referral program",
+    "support": "Support",
+    "verification": "Verification"
+  },
+  "mobileNavigation": {
+    "catalog": "Catalog",
+    "deals": "Deals",
+    "lots": "Lots",
+    "menu": "Menu",
+    "wallet": "Wallet"
+  },
+  "navigation": {
+    "buySell": "Buy / Sell",
+    "myDeals": "My deals",
+    "myOrders": "My orders",
+    "myWallet": "My wallet",
+    "qpay": "QPay",
+    "replenishment": "Replenishment",
+    "support": "Support",
+    "transfer": "Transfer",
+    "exchange": "Exchange"
+  },
+  "notification": {
+    "messages": {
+      "readAll": "Mark all as read",
+      "title": "Messages",
+      "toDeal": "Go to deal",
+      "from": "Message from"
+    },
+    "readAll": "Mark all as read",
+    "title": "Notifications",
+    "onDeal": "To the deal"
+  },
+  "order": {
+    "createLot": {
+      "alert": {
+        "create": "Lot created",
+        "delete": "Lot deleted"
+      },
+      "create": "Create lot",
+      "errors": {
+        "max": "Max. the amount cannot be less than min. amounts",
+        "min": "Min. amount cannot be 0",
+        "currency": "Creating an order with the selected currency is temporarily unavailable"
+      },
+      "fixedValue": "Fixed",
+      "getRate": "Pick the cryptocurrency for which you want to get the current rate",
+      "max": "Max sum",
+      "min": "Min sum",
+      "percent": "Percentage at the rate",
+      "rate": "Rate",
+      "tradeConditions": "Trade conditions",
+      "defaultType": "Buy"
+    },
+    "lotCard": {
+      "buy": "Buy",
+      "currency": "Currency",
+      "delete": "Delete",
+      "fixedValue": "Fixed value",
+      "max": "Max. sum",
+      "min": "Min. sum",
+      "off": "off",
+      "on": "On",
+      "percent": "Percentage at the rate",
+      "rateChange": {
+        "rateAvailable": "A change of course is possible through",
+        "seconds": "seconds"
+      },
+      "sale": "Sale",
+      "tradeConditions": "Trade conditions",
+      "type": "Type"
+    },
+    "offTrade": "Trading deactivated",
+    "offTradeAlt": "Trading deactivated",
+    "onTrade": "Trading activated",
+    "title": "My orders"
+  },
+  "pickers": {
+    "currencyPicker": {
+      "crypto": {
+        "label": "Cryptocurrency",
+        "placeholder": "Cryptocurrency"
+      },
+      "currency": {
+        "label": "Currency",
+        "placeholder": "Currency"
+      }
+    },
+    "dealStatePicker": {
+      "label": "Deal status",
+      "placeholder": "Status"
+    },
+    "defaultDropdownLabel": "All",
+    "paymentMethodPicker": {
+      "label": "Payment method",
+      "placeholder": "All"
+    },
+    "qpayTypePicker": {
+      "buy": "Transfer",
+      "sell": "Withdrawal"
+    },
+    "reasonsPicker": {
+      "placeholder": "Appeal reason"
+    },
+    "tradingLotStatePicker": {
+      "createLot": "Create lot",
+      "label": "Status",
+      "noLotsFound": "No lots found",
+      "options": {
+        "active": "Active",
+        "all": "All",
+        "disabled": "Disabled"
+      },
+      "placeholder": "Order status"
+    },
+    "tradingTypePicker": {
+      "buy": "Buy",
+      "placeholder": "Lot type",
+      "sale": "Sell"
+    },
+    "transactionTypePicker": {
+      "placeholder": "Actions"
+    },
+    "tuiDatePicker": {
+      "placeholder": "Select date",
+      "range": "Time Period"
+    },
+    "walletPicker": {
+      "balance": "Balance",
+      "placeholder": "Account"
+    }
+  },
+  "profile": {
+    "settings": {
+      "defaultCurrency": {
+        "title": "Default currency"
+      },
+      "info": {
+        "email": {
+          "confirm": "Confirm",
+          "info": "Enter and confirm your email to log in your account",
+          "label": "Email",
+          "placeholder": "Enter Email"
+        },
+        "password": {
+          "info": "Set a password to log in to your account",
+          "label": "Password",
+          "placeholder": "Password",
+          "repeatPlaceholder": "Repeat password"
+        },
+        "save": "Save",
+        "telegram": {
+          "change": "Change",
+          "info": "Created automatically when linking an account in Telegram",
+          "label": "Telegram",
+          "placeholder": "UsernameTG"
+        },
+        "title": "Information",
+        "username": {
+          "info": "After registration Username will be displayed in transactions",
+          "label": "Username",
+          "placeholder": "Enter Username"
+        },
+        "regInfo": "To log in through a browser, you must specify a Username and password, enter and confirm your e-mail"
+      },
+      "language": {
+        "title": "App language"
+      },
+      "options": {
+        "fastExchange": "Fast exchange",
+        "info": {
+          "support": "Support",
+          "toggleOptions": "In order to toggle trade options contact "
+        },
+        "qpayDeals": "QPay Deals",
+        "qpayTerminal": "QPay terminal",
+        "title": "Options"
+      },
+      "referral": {
+        "title": "Referral program"
+      },
+      "security": {
+        "auth": {
+          "label": "Send verification code",
+          "options": {
+            "always": "Always",
+            "never": "Never"
+          }
+        },
+        "passwordChange": {
+          "currentPasswordPlaceholder": "Current password",
+          "label": "Password change",
+          "newPasswordPlaceholder": "New password",
+          "repeatPassword": "Repeat password"
+        },
+        "save": "Save",
+        "title": "Security"
+      },
+      "settings": "Settings",
+      "verification": {
+        "alert": "Documents sent",
+        "descriptionRow1": "The account verification process requires three documents to be attached:",
+        "descriptionRow2": "1) A snapshot of your passport or ID card placed against the background of our website.",
+        "descriptionRow3": "2) Selfies with your ID card in your hands. JPG, JPEG, PNG formats are allowed for photos.",
+        "descriptionRow4": "3) An MP4 video where you are visible in the frame. While filming, say: \"For verification in IQCrypto. I am familiar with the terms and conditions of the service.\" It is important that your passport is also visible next to your face in the frame, as well as the iqcrypto.me website. For better results, we recommend using the option to switch between the front and back cameras, ensuring that the iqcrypto.me website address is visible.",
+        "descriptionRow5": "Please note the following points:",
+        "descriptionRow6": "* The use of graphic editors to process photos and videos is prohibited.",
+        "descriptionRow7": "* Validity of documents: make sure that the documents provided are valid and not expired.",
+        "descriptionRow8": "* Check that file sizes and formats are appropriate. Do not submit files that are too large to avoid uploading problems.",
+        "file": "Choose a file",
+        "passed": "Verification passed",
+        "send": "Send documents",
+        "sizeLimit": "File size no more than 50 MB",
+        "title": "Account verification",
+        "unverified": "Unverified user"
+      }
+    }
+  },
+  "profileStatistics": {
+    "days": "Days in service",
+    "deals": "Total deals",
+    "reputation": "Reputation",
+    "reviews": "Reviews"
+  },
+  "qpay": {
+    "operations": {
+      "pickers": {
+        "outerAgent": "External agent",
+        "outerTransactionId": "External transaction ID"
+      },
+      "status": {
+        "all": "All",
+        "approved": "Confirmed",
+        "closed": "Closed",
+        "canceled": "Canceled",
+        "new": "New",
+        "notFound": "Not found",
+        "pending": "In process",
+        "verify": "Verified"
+      },
+      "tab": "Operations"
+    },
+    "settings": {
+      "apis": {
+        "buy": "Purchase contact URL",
+        "notify": "Payment notification URL",
+        "sell": "Sales Contact URL",
+        "title": "API Connection"
+      },
+      "cancel": "Cancel",
+      "inputLogo": "Logo",
+      "organization": {
+        "name": "Name",
+        "title": "Organization",
+        "website": "Website"
+      },
+      "save": "Save",
+      "support": {
+        "phone": "Phone",
+        "telegram": "Telegram",
+        "title": "Support contacts"
+      },
+      "tab": "Settings",
+      "terminalData": "Data",
+      "terminalTitle": "Terminal",
+      "token": "Generate token",
+      "wallet": {
+        "cryptoWallet": "Default Wallet",
+        "currency": "Currency"
+      }
+    },
+    "stats": {
+      "noStats": "Replenishment / transfer history is empty",
+      "qpayStatOperation": {
+        "valueWithdrawal": "Withdrawal",
+        "transactionWithdrawal": "Transaction",
+        "valueTransfer": "Transfer",
+        "transactionTransfer": "Transaction",
+        "commission": "Commission"
+      }
+    }
+  },
+  "qpayOpertionType": {
+    "buy": "Buying",
+    "sell": "Sale",
+    "transfer": "Transfer",
+    "withdrawal": "Withdrawal"
+  },
+  "referral": {
+    "adv": {
+      "bannerSizeTitle": "Banner sizes",
+      "size": "Banner file size: 6 kb",
+      "tab": "Promotional materials"
+    },
+    "link": {
+      "copy": "Copied to clipboard",
+      "description": {
+        "inviteFirstPart": "Now you can invite friends and earn",
+        "inviteSecondPart": "commissions from the transaction"
+      },
+      "example": "Example: You invited a friend and he made a transaction to buy 5 ETH, you will earn 0.02 ETH from this immediately after a successful transaction",
+      "lets": "Let's create together the most accessible platform for trading cryptocurrency between people",
+      "tab": "Referral link"
+    },
+    "info": {
+      "title": "Stats",
+      "sum": "Amount of commissions for each cryptocurrency",
+      "total": "Total referrals"
+    }
+  },
+  "replenishmentTransfer": {
+    "address": "Wallet address",
+    "commission": "Commission",
+    "iqc": "IQC wallet replenishment",
+    "network": "Your network",
+    "replenish": "Wallet replenishment",
+    "sum": "Currency",
+    "transfer": "Transfer",
+    "transferAll": "Use all funds",
+    "userInfo": {
+      "days": "Days in service",
+      "dealsAmount": "Amount of deals",
+      "notVerified": "Not verified",
+      "reviews": "Reviews",
+      "trust": "User trust",
+      "verified": "Verified",
+      "verify": "Verification"
+    }
+  },
+  "support": {
+    "from": "from",
+    "alert": {
+      "create": "Appeal created"
+    },
+    "create": {
+      "creation": "Create",
+      "message": "Message",
+      "number": "Lot number",
+      "selectReason": "Select the reason for your request"
+    },
+    "supportList": {
+      "new": "New appeal",
+      "state": {
+        "closed": "Closed",
+        "opened": "Opened"
+      },
+      "title": "My appeals"
+    },
+    "title": "Support"
+  },
+  "table": {
+    "content": {
+      "noLotsFound": "No lots found",
+      "noOperationsFound": "Transaction history not found",
+      "noOpertaionsFoundQpay": "No operations found"
+    },
+    "header": {
+      "actions": "Actions",
+      "agent": "Agent",
+      "amount": "Amount",
+      "commission": "Commission",
+      "conflict": "Conflict",
+      "crypto": "Amount in cryptocurrency",
+      "cryptoType": "Cryptocurrency",
+      "currency": "Amount in currency",
+      "date": "Date and time",
+      "dealType": "Deal type",
+      "flow": "Movement on balance",
+      "id": "Operation ID",
+      "limit": "Limit",
+      "operationType": "Type of operation",
+      "orderType": "Order type",
+      "outerAgentId": "External agent ID",
+      "outerTransactionId": "External transaction ID",
+      "paymentMethod": "Payment method",
+      "paymentMethodQpay": "Payment method",
+      "price": "Price",
+      "rate": "Exchange rate",
+      "rateShort": "rate",
+      "rating": "Rating",
+      "status": "Status",
+      "type": "Type",
+      "user": "User",
+      "writeOff": "Amount (what was exchanged)",
+      "enrollment": "Amount (what was exchanged for)"
+    },
+    "islands": {
+      "amount": "Amount in currency",
+      "buy": "Buy",
+      "conflict": "Conflict",
+      "cryptoAmount": "Amount in cryptocurrency",
+      "deal": "Deal",
+      "for": "for",
+      "from": "From",
+      "limit": "Limit",
+      "price": "Price for",
+      "rate": "Rate",
+      "sell": "Sell",
+      "to": "to"
+    }
+  },
+  "tradingState": {
+    "autoCanceled": "Canceled automatically",
+    "canceledByBuyer": "Canceled by buyer",
+    "canceledBySeller": "Canceled by seller",
+    "canceledByTrader": "Canceled by trader",
+    "canceledOnAutoConflict": "Canceled automatically due to conflict",
+    "canceledOnConflict": "Canceled on conflict",
+    "closed": "Closed",
+    "closedAutoOnConflict": "Closed automatically due to conflict",
+    "closedOnConflict": "Closed on conflict",
+    "conflict": "Conflict",
+    "expiredOnTimer": "Automatically canceled on timer expires",
+    "open": "Opened"
+  },
+  "transactionState": {
+    "approved": "Approved",
+    "cancel": "Canceled by client",
+    "closed": "Closed",
+    "found": "Found",
+    "new": "Created",
+    "notFound": "Not found",
+    "verified": "Verified",
+    "waiting": "Waiting"
+  },
+  "transactionType": {
+    "buy": "Buy",
+    "referral": "Referral commission",
+    "refill": "Refill",
+    "sale": "Sale",
+    "withdrawal": "Withdrawal",
+    "exchange": "Exchange"
+  },
+  "userInfo": {
+    "chat": {
+      "title": "Chat"
+    },
+    "deals": {
+      "buy": "Buy",
+      "for": "for",
+      "from": "From",
+      "sell": "Sell",
+      "title": "Deals with",
+      "to": "to"
+    },
+    "dealsHistory": {
+      "buy": "Buy",
+      "sell": "Sell",
+      "title": "User lots"
+    },
+    "lastOnline": "Last online",
+    "statistics": {
+      "block": {
+        "alert": "User has been blocked!",
+        "dialog": {
+          "no": "No",
+          "title": "Are you sure that you want to block",
+          "yes": "Yes"
+        },
+        "state": {
+          "active": "Active",
+          "blocked": "Blocked"
+        }
+      },
+      "blockUser": "Block user",
+      "daysInService": "Days in service",
+      "deals": "Total deals",
+      "isFavorite": "Trusted user",
+      "favorite": "Add to favorite",
+      "notVerified": "Not verified",
+      "reputation": "Reputation",
+      "reviews": "Reviews",
+      "status": "Status",
+      "title": "Statistics",
+      "username": "Username",
+      "verification": "Verification",
+      "verified": "Verified"
+    },
+    "title": "User's information: "
+  },
+  "wallet": {
+    "myWallet": "My wallet",
+    "noWallets": "No wallets",
+    "referral": "Referral system",
+    "walletCard": {
+      "replenish": "Replenish",
+      "withdrawal": "Withdrawal",
+      "exchange": "Exchange"
+    }
+  },
+  "exchange": {
+    "title": "Exchange",
+    "latestOperations": "Latest operations",
+    "form": {
+      "debitingTitle": "Sending from account",
+      "sum": "Sum",
+      "enrollmentTitle": "Receiving on account",
+      "commissionTitle": "Commission",
+      "minToExchange": "Exchange Minimum",
+      "maxToExchange": "Exchange Maximum (reserve)",
+      "exchangeBtn": "Exchange"
+    }
+  },
+  "terminal": {
+    "title": "Payment system QPay",
+    "instruction": "Video instruction",
+    "openConflict": "Open Dispute",
+    "payment": {
+      "title": "Money sent to the seller's account",
+      "description": "If the payment confirmation for the order is not received, open a dispute when the timer expires."
+    },
+    "paymentConfirm": {
+      "title": "Money sent to the card",
+      "description": {
+        "part1": "Open a dispute if you haven't received money to your card",
+        "part2": "before the timer expires"
+      },
+      "confirm": "Confirm receipt of funds",
+      "openConflict": "Open Dispute"
+    },
+    "lightPending": {
+      "title": "Transaction preparation in progress",
+      "subtitle": "Do not leave the page",
+      "cancel": "Cancel",
+      "text": {
+        "part1": "Payment to the card ",
+        "part2": " is currently not available. Choose another payment method or try again later."
+      },
+      "errorMessage": "Oops! An error occurred. Please try again.",
+      "back": "Back",
+      "next": "Continue"
+    },
+    "pendingPayments": "Wait for funds transfer",
+    "lightRequisites": {
+      "title": {
+        "part1": "Send ",
+        "part2": " to the seller's specified requisites"
+      },
+      "description": {
+        "part1": "Only internal transfers ",
+        "part2": " Violation of this rule may result in cancellation of the operation."
+      },
+      "requisites": "Transfer requisites",
+      "duration": {
+        "part1": "If you do not confirm the transfer within ",
+        "part2": " minutes, the operation will be automatically canceled"
+      },
+      "cancel": "Cancel payment",
+      "confirm": "Confirm transfer"
+    },
+    "paymentMethod": {
+      "titleWithdrawal": "Choose the method you want to withdraw money",
+      "amountTextWithdrawal": "You are withdrawing:",
+      "titlePayment": "Choose the payment method",
+      "amountTextPayment": "Purchase amount:",
+      "email": "Email to receive the receipt",
+      "emailInput": "Enter your email",
+      "submit": "Confirm"
+    },
+    "withdrawalRequisites": {
+      "title": {
+        "part1": "Enter the card number ",
+        "part2": " to which you are withdrawing currency and the cardholder's initials"
+      },
+      "cancel": "Cancel payment",
+      "send": "Withdraw money"
+    },
+    "canceled": {
+      "title": "Operation canceled, funds not withdrawn.",
+      "buttonText": "Withdraw funds"
+    },
+    "conflict": {
+      "description": "Participate in the dispute to clarify the situation",
+      "textWithdrawal": "Dispute is open. If there is no response, after the timer expires, the withdrawal will be automatically canceled.",
+      "textPayment": "Dispute is open. If there is no response, after the timer expires, the payment will be automatically completed."
+    },
+    "success": {
+      "titleWithdrawal": "Funds withdrawn",
+      "titlePayment": "Payment made"
+    }
+  }
+}

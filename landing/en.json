@@ -1,0 +1,732 @@
+{
+  "auth": {
+    "restorePassword": {
+      "email": "Email",
+      "info": "Request has been sent. If your e-mail is in the database, you will receive a letter with instructions for password recovery",
+      "recover": "Password recovery",
+      "restore": "Recover",
+      "toSignIn": "to Sign In"
+    },
+    "signIn": {
+      "alert": {
+        "error": "An error has occurred",
+        "sent": "The letter has been sent, check your mailbox"
+      },
+      "emailLogin": "Email/Login",
+      "enter": "Sign In",
+      "error": {
+        "email": {
+          "confirm": "To sign in you need to confirm your email.",
+          "noMail": "Didn't receive the letter?",
+          "resend": "Resend email"
+        }
+      },
+      "forget": "Forgot your password?",
+      "or": "or",
+      "password": "Password",
+      "signIn": "Sign In",
+      "telegram": "Via Telegram"
+    },
+    "signUp": {
+      "agreement": {
+        "agreed": "Agree with a",
+        "service": "term of service"
+      },
+      "email": "Email",
+      "error": {
+        "checkMail": "Check your mailbox",
+        "confirm": "To sign in you need to confirm your email.",
+        "login": "Only letters and numbers of the Latin alphabet, no spaces or special characters"
+      },
+      "login": "Login",
+      "password": "Password",
+      "repeatPassword": "Repeat password",
+      "signUp": "Sign Up",
+      "toSignIn": "On Sign In page"
+    }
+  },
+  "chat": {
+    "message": "Message",
+    "noMessages": "There are no messages here yet",
+    "send": "Send"
+  },
+  "contacts": {
+    "description": "Contact us if you have any questions",
+    "form": {
+      "email": "E-mail",
+      "name": "Name",
+      "submit": "Submit",
+      "textfield": "Message",
+      "title": "Send"
+    },
+    "subtitle": "Telegram support service",
+    "telegram": "Enter",
+    "title": "Contacts",
+    "send": {
+      "title": "Your message has been sent.",
+      "content": "The answer will be sent to the specified e-mail as soon as possible"
+    }
+  },
+  "deals": {
+    "createDeal": "Create deal",
+    "dealBuy": {
+      "existingDeal": "Deal",
+      "newDeal": "New deal",
+      "stages": {
+        "cancel": "Cancel deal",
+        "close": "Deal closing",
+        "currencyReceivingWaiting": "Coin receiving",
+        "currencySendingWaiting": "Coin sending",
+        "dealClosed": {
+          "details": {
+            "afterPayment": "Details: Full name in chat after payment",
+            "card": "card"
+          },
+          "notifySeller": "If you have already transferred currency, please notify the seller in a message. To restore the transaction, contact the site support.",
+          "toDeals": "To my deals"
+        },
+        "dealClosing": {
+          "commission": "The commission was",
+          "dealClosed": "The deal is completed",
+          "dealsSummary": {
+            "from": "from user",
+            "recived": "You have received"
+          },
+          "dislike": "Dislike",
+          "like": "Like"
+        },
+        "dealDetails": {
+          "dealStarted": {
+            "deal": "Deal",
+            "launched": "launched"
+          },
+          "dialog": {
+            "areYouSure": "Are you sure you have received ",
+            "fromUser": "from user",
+            "no": "No",
+            "toAccount": "to your account",
+            "yes": "Yes"
+          }
+        },
+        "open": {
+          "alert": "The deal is open",
+          "buy": "You get",
+          "commission": "Commission",
+          "dealStart": {
+            "nextStep": "When the seller sends the details, you will automatically proceed to the next stage of the transaction",
+            "time": "Within 2 minutes he must confirm the transaction.",
+            "title": "We have notified the seller of your request."
+          },
+          "dialog": {
+            "cancelDeal": {
+              "back": "Back to deal",
+              "confirm": "Yes, I'm sure",
+              "confirmation": "Are you sure you want to cancel the deal?"
+            },
+            "openDeal": "Deal canceled"
+          },
+          "dontLeaveMessage": "Don't leave the page",
+          "openDeal": "Open deal",
+          "rateChange": {
+            "courseRateOf": "The course rate of",
+            "hasChanged": "has changed",
+            "rate": "The current rate is"
+          },
+          "sale": "You give",
+          "title": "Deal opening"
+        },
+        "paymentDeal": {
+          "confirm": "Confirm money transfer",
+          "dialog": {
+            "confirm": "Are you sure that you have transferred ",
+            "no": "No",
+            "ofUser": "of user",
+            "to": "to",
+            "yes": "Yes"
+          },
+          "sendingNotify": {
+            "accordingTo": "according to the details specified by the seller",
+            "send": "Send"
+          },
+          "warningNotify": {
+            "onlyInternalTransactions": "Only internal transfers",
+            "warning": "Violation of this rule may result in cancellation of the transaction."
+          },
+          "warningTimeoutStart": "If you do not confirm the transfer within",
+          "warningTimeoutEnd": " minutes, the transaction will be automatically terminated"
+        },
+        "paymentReceiving": "Payment receiving",
+        "paymentSending": "Payment sending",
+        "pendingCoins": {
+          "disputeInfo": "If the seller does not release the cryptocurrency, open a dispute after the timer expires",
+          "openDispute": "Open dispute"
+        },
+        "requisitesReceivingWaiting": "Requisites receiving",
+        "requisitesSendingWaiting": "Requisites sending",
+        "step": "Step"
+      }
+    },
+    "dealInfo": {
+      "dayInService": "Days in service",
+      "deals": "Total Deals",
+      "lotInfo": {
+        "conditions": "Deal conditions",
+        "from": "From",
+        "limit": "Limit",
+        "to": "To"
+      },
+      "message": "Message",
+      "orderInfo": "Order information",
+      "paymentType": "Payment type",
+      "rate": "Rate",
+      "report": "Report conditions",
+      "reportDialog": {
+        "application": "Open application",
+        "support": "in the support section",
+        "title": "In order to complain about the conditions of the lot, you must create a new request",
+        "toDeal": "Back to deal"
+      },
+      "reputation": "Reputation",
+      "reviews": "Reviews",
+      "role": {
+        "buyer": "Buyer",
+        "seller": "Seller"
+      },
+      "verification": "Verification"
+    },
+    "dealSale": {
+      "existingDeal": "Deal",
+      "newDeal": "New deal",
+      "stages": {
+        "cancel": "Cancel deal",
+        "dealAcceptance": {
+          "accept": "Accept the deal",
+          "cancel": "Cancel deal",
+          "commission": "After the transaction, a service fee in the amount of",
+          "notifySecurity": "Please note that for your security reasons, it is prohibited to transfer details outside of this service.",
+          "title": "Acceptance of the transaction"
+        },
+        "dealClosed": {
+          "toDeals": "To my deals"
+        },
+        "dealClosing": {
+          "commission": "Commission was",
+          "dealClosed": "The deal is completed",
+          "description": {
+            "toUser": "to user",
+            "youSold": "You sold"
+          },
+          "dislike": "Dislike",
+          "like": "Like",
+          "title": "Closing the deal"
+        },
+        "dealDetails": {
+          "paymentInfo": {
+            "otherInfo": "full name and send to the buyer before the timer expires",
+            "yourCard": "Enter your credit card number"
+          },
+          "security": "Please note that for your security reasons, it is prohibited to transfer details outside of this service.",
+          "sendDetails": "Send details",
+          "title": "Sending details"
+        },
+        "dealDetailsPending": {
+          "alert": "Coins sent",
+          "cancelCondition": {
+            "ifUser": "If the user",
+            "then": "does not confirm the transfer within the specified time, the transaction will be automatically canceled"
+          },
+          "confirm": "Confirm payment and release coins",
+          "dialog": {
+            "areYouSure": "Are you sure you have received ",
+            "fromUser": "from user",
+            "no": "No",
+            "toAccount": "to your account",
+            "yes": "Yes"
+          },
+          "notify": "You will be notified when the buyer confirms the payment",
+          "title": "Waiting for payment"
+        },
+        "sendingCoins": {
+          "confirm": "Confirm payment and release coins",
+          "confirmNotify": "Check receipt of the transfer from the user and confirm the sending of coins for the transaction",
+          "openDispute": "Open dispute",
+          "title": "Sending coins"
+        },
+        "step": "Step"
+      }
+    },
+    "description": {
+      "atTheRate": "at the rate of",
+      "buy": "Buying",
+      "for": "for",
+      "from": "from user",
+      "sale": "Selling",
+      "through": "through",
+      "to": "to the user"
+    },
+    "notFound": "No deals found",
+    "title": "My deals"
+  },
+  "dealState": {
+    "approvement": "Awaiting confirmation",
+    "canceledClient": "Canceled by client",
+    "closed": "Closed",
+    "found": "Found",
+    "new": "New",
+    "notFound": "Not found",
+    "verified": "Verified",
+    "waiting": "Waiting"
+  },
+  "dealType": {
+    "buy": "Buy",
+    "sale": "Sale"
+  },
+  "faq": {
+    "menu": {
+      "commission": "Commissions",
+      "other": "Other",
+      "security": "Security",
+      "trading": "Trading",
+      "wallet": "IQCrypto Wallet"
+    },
+    "title": "Frequently Asked Questions",
+    "wallet": {
+      "access": {
+        "title": "How to regain access to an account when the password is lost?",
+        "descr": "To reset your password, you need to click on the \"Log In\" button, then click on \"Forgot Password\" and enter your email. After that, you will receive an email. You will need to follow the link in the email and change your password. Then, you can log in to the system with the new password."
+      },
+      "email": {
+        "title": "If I don't have access to my email, what should I do?",
+        "descr": "If two-factor authentication is disabled, you can link a new email through your account. You should go to User Settings - Security. When you change your email, a confirmation code and a confirmation link are sent to the user immediately. If the email is not confirmed within 24 hours, the old email value is restored. After confirmation, you will also receive a notification that the email has been changed.",
+        "subdescr": "If two-factor authentication is enabled, you will need to contact support to confirm your identity."
+      },
+      "merge": {
+        "title": "How to link Telegram and website accounts?",
+        "subtitle": "There are 2 ways:",
+        "descr": "If the user has an account in the Telegram bot, account linking occurs in the personal cabinet on the \"Settings\" tab. In the \"Security\" section, click \"Link Telegram,\" go to the link in Telegram, and click \"start.\" After that, the accounts are automatically linked.",
+        "subdescr": "The user was already registered on the website and decided to switch to the bot. If it's their first time in the bot, the bot offers to answer the question, \"Do you already have an account?\" If the user answers \"Yes,\" they enter their login and password, log into the account through the bot, and their user ID is linked to it."
+      },
+      "changeTelegram": {
+        "title": "How to change the Telegram account?",
+        "descr": "To change the Telegram account, you can follow the same steps as the first time: click \"Link Telegram\" in the profile, then go to the link in the chatbot and click \"start.\"",
+        "subdescr": "Or you can authenticate through the bot in a new Telegram account."
+      },
+      "iqcryptoRecieve": {
+        "title": "How to send funds to my IQCRYPTO wallet?",
+        "descrPre": "To do this, you need to go to your personal cabinet on the",
+        "descrLast": "website, then go to the \"Deposit\" tab in the left menu, copy the address, and paste it into the source from which you plan to transfer funds."
+      },
+      "iqCryptoSend": {
+        "title": "How to send funds from my IQCRYPTO wallet?",
+        "descr": "To transfer funds from your IQCRYPTO wallet, you need to go to the \"Transfer\" tab in the left menu of the page, enter the wallet address to which you will be sending the cryptocurrency. Make sure you have double-checked the address, as cryptocurrency transactions are irreversible. In the \"Amount\" field, enter the amount of currency you want to transfer and click \"Send.\""
+      },
+      "wrongAddress": {
+        "title": "I sent to the wrong address. Can you cancel the transfer?",
+        "descr": "Cryptocurrency transactions cannot be canceled. If you have sent funds to the wrong address, they cannot be returned. Before sending funds, make sure the wallet address is correct."
+      },
+      "fiat": {
+        "title": "What is fiat currency?",
+        "descr": "Fiat currency is traditional money, such as dollars, euros, rubles, and others, issued by governments of countries. In the context of a P2P crypto platform, fiat currency is used for buying or selling cryptocurrencies. When you buy cryptocurrency, you pay with fiat money, and when you sell, you receive payment in fiat currency."
+      }
+    },
+    "trading": {
+      "trader": {
+        "title": "Who is a trader?",
+        "descr": "A participant on the platform actively engaged in buying and selling cryptocurrencies. Traders can act as buyers or sellers."
+      },
+      "deal": {
+        "title": "What is a deal?",
+        "descr": "It is the process where an order to buy or sell cryptocurrency is fulfilled, resulting in the transfer of cryptocurrencies or fiat funds between participants."
+      },
+      "orders": {
+        "title": "What are Orders, Asks, Bids?",
+        "descr": "An order is a user platform's proposal to buy or sell a certain amount of cryptocurrency at a specified price.",
+        "ask": "Asks are orders to sell cryptocurrencies.",
+        "bid": "Bids are orders to buy cryptocurrencies.."
+      },
+      "dealPending": {
+        "title": "How will I know when I have a deal?",
+        "descr": "Notifications for each new deal will be displayed on the website."
+      },
+      "maxOrders": {
+        "title": "How many orders can I create?",
+        "descr": "A trader can have no more than 50 orders (enabled and disabled). Orders must contain different payment method values and cryptocurrencies. For example, you can have one order to buy Bitcoin with payment via Sberbank and another to buy Bitcoin with payment via all Russian banks."
+      },
+      "dealCancel": {
+        "title": "How can I cancel a deal?",
+        "descr": "Sellers can cancel a deal before sending the details. In the subsequent stages, a deal can only be canceled by opening a dispute.",
+        "subdescr": "Buyers can cancel a deal at all stages except for \"Waiting for Coins.\" At the \"Waiting for Coins\" stage, a deal can only be canceled through support by opening a dispute."
+      },
+      "dispute": {
+        "title": "I paid for the deal and confirmed payment, but the trader is not responding. I opened a dispute. What happens next?",
+        "descr": "If the trader does not join the dispute, then after the timer expires, the cryptocurrency will be released to you.",
+        "subdescr": "If the trader enters the dispute, support will contact each party and make a decision based on the provided data (either release the cryptocurrency or cancel the deal)."
+      },
+      "timer": {
+        "title": "The deal was automatically canceled due to the payment stage timer expiring. Is it possible to resume the deal?",
+        "descr": "If a deal was automatically canceled due to the timer during the \"Payment for the deal\" stage, the buyer can contact support to resolve the situation.",
+        "subtitle": "There are two possible scenarios:",
+        "sellerDidntApproved": "If the buyer paid for the deal, but the seller did not confirm, and the deal was canceled, and the buyer did not participate in a dispute.",
+        "buyerDidntNotice": "If the buyer paid for the deal but did not notify about the payment, and the deal was automatically closed.",
+        "solutions": {
+          "title": "Two possible solutions:",
+          "firstSubtitle": "If the seller is willing to resolve the issue:",
+          "dealContinue": "The deal will be resumed by support, and the seller will transfer cryptocurrency as per the deal.",
+          "dealMoneyBack": "The seller will refund the buyer.",
+          "secondSubtitle": "If the seller is uncooperative or unresponsive, in that case:",
+          "blocked": "After one day, support will suspend the seller's account. To regain the account, the seller must contact support, return the money to the buyer, and provide evidence of the refund to support."
+        }
+      },
+      "status": {
+        "title": "Deciphering the Transaction Status",
+        "dispute": {
+          "title": "Dispute",
+          "descr": "One of the parties to the transaction has opened a dispute, which will lead either to the closure or to the cancellation of the transaction by support."
+        },
+        "canceledByTrader": {
+          "title": "Cancelled by Trader",
+          "descr": "The trader cancelled the transaction."
+        },
+        "canceledByBuyer": {
+          "title": "Cancelled by Buyer",
+          "descr": "The buyer cancelled the transaction."
+        },
+        "autoCancel": {
+          "title": "Automatically Cancelled",
+          "descr": "The trader did not confirm the transaction and did not cancel it before the timer expired at the Waiting for Details / Sending Details stage."
+        },
+        "disputeCancel": {
+          "title": "Cancelled by Dispute",
+          "descr": "The seller did not join the buyer's dispute, or through the dispute, the seller refunded the payment to the buyer."
+        },
+        "closedByDispute": {
+          "title": "Closed by Dispute",
+          "descr": "The buyer did not join the dispute, or through the dispute, the seller released the cryptocurrency to the buyer."
+        }
+      }
+    },
+    "security": {
+      "verify": {
+        "title": "What is the difference between a verified account and an unverified one?",
+        "descr": "An unverified account does not have options for: Quick deals, QPay transactions. Also, a verified user is more trusted."
+      },
+      "agentIgnore": {
+        "title": "The deal is open, but the user has stopped responding. What can I do?",
+        "descr": "If you do not receive a response from the user, you can cancel the deal yourself using the “Cancel the deal” button in the deal, or after the deal timer expires, the deal will be automatically canceled."
+      },
+      "report": {
+        "title": "Something went wrong in the deal, and I filed a complaint against the user. What actions will be taken?",
+        "descr": "When a complaint against a user is received by support, all provided information is checked."
+      },
+      "mailNotifyReport": {
+        "title": "I received a letter saying that my account is blocked. What should I do?",
+        "descr": "Notifications about client blocking are not sent via email or Telegram. It's better to double-check all information through support."
+      }
+    },
+    "commission": {
+      "rates": {
+        "title": "What is the commission?",
+        "descr": "The specific size and order of payment for the right to use the Service are always indicated directly in the Service interface."
+      },
+      "platformCommission": {
+        "title": "Why did I receive less cryptocurrency than I paid for?",
+        "descr": "The reason you may receive less cryptocurrency than expected could be that the amount in fiat currency is displayed in your wallet according to the exchange rate, but you are buying at the trader's rate on the platform. The amount in cryptocurrency is constant, unlike the fiat amount.",
+        "subdescr": "Suppose you buy 0.01 BTC at a rate of 40,000 USD. You expect to pay 400 dollars for this amount, and after the purchase, your account will show an equivalent of 400 dollars (or 0.01 BTC). However, if the BTC rate falls after your purchase, the amount in fiat currency on your account will be less than 400 dollars. This happens because the value of BTC in fiat currency has changed, although the amount of BTC remains the same."
+      }
+    },
+    "other": {
+      "info": {
+        "title": "Where can I find additional information?",
+        "support": "support",
+        "descrPre": "You can write to our",
+        "descrLast": "where we will answer your questions, or join our group on Telegram."
+      }
+    }
+  },
+  "fastTrade": {
+    "cancel": "Cancel deal",
+    "dealInfo": {
+      "buy": "You're buying",
+      "chat": "Chat with the seller",
+      "dealId": "Transaction ID",
+      "dealWindow": "Trade window",
+      "info": "Deal Details",
+      "paymentMethod": "Payment method",
+      "sale": "You're selling",
+      "videoGuide": "Video Guide"
+    },
+    "dealPending": {
+      "adviceFd": "Don't leave the page",
+      "advice": "minutes, don't leave the page",
+      "lessThen": "it will not take more than",
+      "title": "Looking for a seller",
+      "canceled": "Seller canceled the transaction. The search for a new lot is underway",
+      "dealNotFound": "Application not found, select another payment method or try again later."
+    },
+    "dealSuccess": {
+      "finished": "Cryptocurrency has been sent to your wallet. The transaction is complete. If you haven't receive cryptocurrency in your wallet within 4 hours, contact",
+      "support": "support"
+    },
+    "dialog": {
+      "areYouSure": "Are you sure you have transferred",
+      "no": "No",
+      "toThe": "to the",
+      "yes": "Yes"
+    },
+    "dispute": {
+      "accept": "Accept Dispute",
+      "acceptToResolve": "Accept the dispute to resolve disagreements",
+      "openedAdispute": "opened a dispute",
+      "seller": "Seller",
+      "sellerNotify": "The seller has received a notice that a dispute has been opened",
+      "title": "The Dispute is open",
+      "warning": "When the timer expires, the dispute will be automatically closed in your favor",
+      "fastDealWarning": "If the seller does not take part in the dispute, the cryptocurrency will be automatically transferred to your wallet"
+    },
+    "openDeal": {
+      "sellerNotify": "We have notified the seller of your application",
+      "withinTime": "Within",
+      "endTime": "minutes seller should confirm the transaction"
+    },
+    "openDispute": "Open a Dispute",
+    "payment": {
+      "cancel": "Cancel",
+      "confirm": "Confirm payment",
+      "descriptionStart": "If you do not confirm the transfer within",
+      "descriptionEnd": "minutes, the transaction will be canceled automatically",
+      "details": "Details for transfer",
+      "internal": {
+        "onlyInternal": "Internal transfers only",
+        "warning": "Violation of this rule may result in the transaction being canceled"
+      },
+      "title": {
+        "requisites": "to the specified details",
+        "send": "Send"
+      }
+    },
+    "receiving": {
+      "advice": "If the seller does not release the cryptocurrency, open a dispute when the timer expires"
+    },
+    "steps": {
+      "moneyTransfer": {
+        "title": "Money transfer"
+      },
+      "receivingCrypto": {
+        "title": "Receiving Cryptocurrency"
+      },
+      "receivingDetails": {
+        "title": "Receiving requisites"
+      }
+    },
+    "title": "QPay Payment System"
+  },
+  "footer": {
+    "about": {
+      "commission": "Service and network commissions",
+      "documentation": "API Documentation",
+      "partnership": "Business partnership",
+      "reviews": "Reviews about the platform",
+      "service": "About the service",
+      "support": "Support",
+      "vacancy": "Vacancies",
+      "vk": "Us Vk",
+      "youtube": "Youtube channel"
+    },
+    "features": {
+      "list": {
+        "buyBtc": "Buy Bitcoin",
+        "buyEth": "Buy Etherium",
+        "buyMonero": "Buy Monero",
+        "buyUsdt": "Buy USDT",
+        "cryptoWallet": "Cryptocurrency wallet",
+        "p2pTelegram": "P2P wallet in Telegram bot",
+        "sellBtc": "Sell Bitcoin",
+        "sellEth": "Sell Etherium",
+        "sellMonero": "Sell Monero",
+        "sellUsdt": "Sell USDT"
+      },
+      "title": "For you"
+    },
+    "helpful": {
+      "list": {
+        "bitpapaBlog": "Bitpapa Blog",
+        "bitpapaCommunity": "Bitpapa community",
+        "bitpapaStats": "Statistics and status of Bitpapa services",
+        "btcConversion": "Bitcoin rate and converter",
+        "bugBountyProgramm": "Bug Bounty Program",
+        "earnBtc": "Earn Bitcoins",
+        "joinBitpapa": "How to become a trader on Bitpapa",
+        "support": "Support"
+      },
+      "title": "Fetured links"
+    },
+    "shortcuts": {
+      "faq": "FAQ",
+      "guide": "Guides",
+      "report": "Reports"
+    }
+  },
+  "header": {
+    "auth": {
+      "signIn": "Sign In",
+      "signUp": "Sign Up"
+    },
+    "menu": {
+      "contacts": "Contacts",
+      "faq": "FAQ",
+      "homepage": "Homepage",
+      "qpay": "QPAY"
+    }
+  },
+  "homepage": {
+    "advantages": {
+      "description": "IQ Crypto P2P exchanger with a built-in wallet. Safe buying and selling of cryptocurrency between users is guaranteed by the platform. Exchange Bitcoin and Ethereum anywhere in the web version or Telegram bot.",
+      "leads": {
+        "anonymity": {
+          "description": "All data of sellers and buyers is protected. Transactions are made anonymously",
+          "title": "Anonymously"
+        },
+        "currency": {
+          "description": "Pay for transactions in a convenient currency, it is converted at the current rate",
+          "title": "In any currency"
+        },
+        "messenger": {
+          "description": "Make transactions via Telegram or on the website",
+          "title": "No intermediaries"
+        },
+        "safety": {
+          "description": "At the time of purchase/sale, the amount is frozen in the account until the transaction is completed",
+          "title": "Guaranteed"
+        }
+      },
+      "title": "IQ Crypto is a convenient way to exchange bitcoins for rubles"
+    },
+    "bot": {
+      "advantages": {
+        "commission": "0% commission on transactions",
+        "community": "Powerful crypto community",
+        "messenger": "Safe trading via messenger",
+        "support": "Telegram support 24/7"
+      },
+      "subtitle": "Crypto wallet and bot exchanger in your Telegram!",
+      "telegramSignIn": "Login via Telegram",
+      "title": "How does Telegram-bot work?"
+    },
+    "desktop": {
+      "createAccount": "Create an account",
+      "lead": {
+        "account": "Customizable personal account",
+        "exchange": "Lightning Fast cryptocurrency exchange",
+        "support": "24/7 support",
+        "ui": "Intuitive interface"
+      },
+      "title": "IQ Crypto for PC"
+    },
+    "hero": {
+      "conversion": {
+        "limits": {
+          "rate": "Exchange rate",
+          "min": "Min purchase",
+          "max": "Мax purchase",
+          "for": "for"
+        },
+        "agreement": {
+          "agree": "I agree with the",
+          "conditions": " terms of service"
+        },
+        "buy": {
+          "label": "Buy",
+          "placeholder": "Amount"
+        },
+        "cryptoCurrency": {
+          "label": "Crypto",
+          "placeholder": "Crypto"
+        },
+        "currency": {
+          "label": "Currency",
+          "placeholder": "Currency"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Enter your e-mail"
+        },
+        "network": {
+          "label": "Network",
+          "placeholder": "Network"
+        },
+        "paymentMethods": {
+          "label": "Payment methods",
+          "placeholder": "Payment method"
+        },
+        "sell": {
+          "label": "Sell",
+          "placeholder": "Amount"
+        },
+        "submit": "Trade",
+        "walletAddress": {
+          "label": "Withdrawal",
+          "placeholder": "Cryptowallet address"
+        }
+      },
+      "title": {
+        "mainTitle": {
+          "end": "of cryptocurrencies",
+          "middle": "sale",
+          "start": "Instant Purchase  "
+        },
+        "subtitle": "Best trading platform of 2023"
+      }
+    }
+  },
+  "qpay": {
+    "hero": {
+      "demo": "Watch the demo",
+      "description": "A convenient way to pay for any services",
+      "signUp": "Sign Up",
+      "title": "QPAY"
+    },
+    "lead": {
+      "list": {
+        "cryptocurrencies": {
+          "description": "The ability to accept payments in popular cryptocurrencies.",
+          "title": "Expanding The Customer Base"
+        },
+        "currency": {
+          "description": "Customers can pay for purchases in various currencies, which are automatically converted into cryptocurrency.",
+          "title": "Currency Flexibility"
+        },
+        "integration": {
+          "description": "QPAY can be quickly and easily integrated into your website or Telegram messenger.",
+          "title": "Easy Integration"
+        },
+        "privacy": {
+          "description": "A high level of privacy for both sellers and buyers.",
+          "title": "Privacy"
+        },
+        "security": {
+          "description": "The cryptocurrency is \"frozen\" until the transaction is completed for security.",
+          "title": "Protection of Transactions"
+        },
+        "simplicity": {
+          "description": "An easy and intuitive payment process with seller selection, quick transfer of funds and dispute resolution.",
+          "title": "Ease Of Use"
+        }
+      },
+      "title": "IQ Crypto P2P is an exchanger with a built-in wallet. The safe purchase and sale of cryptocurrencies between users is guaranteed by the platform. Exchange Bitcoin and Ethereum anywhere in the web version or Telegram bot."
+    }
+  },
+  "tradingState": {
+    "autoCanceled": "Canceled automatically",
+    "canceledByBuyer": "Canceled by buyer",
+    "canceledBySeller": "Canceled by seller",
+    "canceledByTrader": "Canceled by trader",
+    "canceledOnAutoConflict": "Canceled automatically due to conflict",
+    "canceledOnConflict": "Canceled on conflict",
+    "closed": "Closed",
+    "closedAutoOnConflict": "Closed automatically due to conflict",
+    "closedOnConflict": "Closed on conflict",
+    "conflict": "Conflict",
+    "expiredOnTimer": "Automatically canceled on timer expires",
+    "open": "Opened"
+  }
+}
