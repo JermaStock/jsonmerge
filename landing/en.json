@@ -114,7 +114,7 @@
           "commission": "Commission",
           "dealStart": {
             "nextStep": "When the seller sends the details, you will automatically proceed to the next stage of the transaction",
-            "time": "Within 2 minutes he must confirm the transaction.",
+            "time": "Within 2 minutes he must confirm the transaction and send payment details.",
             "title": "We have notified the seller of your request."
           },
           "dialog": {
@@ -486,7 +486,7 @@
     "openDeal": {
       "sellerNotify": "We have notified the seller of your application",
       "withinTime": "Within",
-      "endTime": "minutes seller should confirm the transaction"
+      "endTime": "minutes seller should confirm the transaction and send payment details"
     },
     "openDispute": "Open a Dispute",
     "payment": {
@@ -599,7 +599,7 @@
           "title": "Guaranteed"
         }
       },
-      "title": "IQ Crypto is a convenient way to exchange bitcoins for rubles"
+      "title": "IQ Crypto is a convenient way to exchange bitcoins for your fiat currency"
     },
     "bot": {
       "advantages": {

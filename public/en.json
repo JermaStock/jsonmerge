@@ -1,20 +1,4 @@
 {
-  "routesTitles": {
-    "wallet": "Wallet",
-    "replenishment": "Replenishment",
-    "transfer": "Transfer",
-    "lots": "Lots",
-    "buy-sell": "Buy/Sell",
-    "notification": "Notification",
-    "messages": "Messages",
-    "deals": "Deals",
-    "profile": "Profile",
-    "referral": "Referral",
-    "exchange": "Exchange",
-    "menu": "Menu",
-    "trading-profile": "Trading profile",
-    "support": "Support"
-  },
   "attaches": {
     "verify": {
       "label": "or drag them here",
@@ -39,7 +23,7 @@
     "logout": {
       "confirm": "Are you sure you want to log out?",
       "no": "No",
-      "title": "Logging Out",
+      "title": "Are you sure you want to log out?",
       "yes": "Yes"
     },
     "restorePassword": {
@@ -159,12 +143,9 @@
           "buy": "You get",
           "commission": "Commission",
           "dealStart": {
-            "nextStep": "When the seller sends the details, you will automatically proceed to the next stage of the transaction",
-            "timeStart": "Within ",
-            "timeEnd": " minutes he must confirm the transaction",
-            "title": "We have notified the seller of your request",
-            "start": "We have notified the",
-            "end": " of your request"
+            "nextStep": "After receiving the details, the process will automatically move to the next stage.",
+            "time": "The counterparty should confirm the transaction and send payment information promptly.",
+            "title": "Notification has been sent regarding your request."
           },
           "dialog": {
             "cancelDeal": {
@@ -174,7 +155,7 @@
             },
             "openDeal": "Deal canceled"
           },
-          "dontLeaveMessage": "Don't leave the page",
+          "dontLeaveMessage": "Please stay on this page.",
           "openDeal": "Open deal",
           "rateChange": {
             "courseRateOf": "The course rate of",
@@ -202,8 +183,8 @@
             "warning": "Violation of this rule may result in cancellation of the transaction."
           },
           "warningTimeout": "If you do not confirm the transfer within 30 minutes, the transaction will be automatically terminated",
-          "warningTimeoutEnd": "If you do not confirm the transfer within",
-          "warningTimeoutStart": " minutes, the transaction will be automatically terminated"
+          "warningTimeoutEnd": "",
+          "warningTimeoutStart": ""
         },
         "paymentReceiving": "Payment receiving",
         "paymentSending": "Payment sending",
@@ -368,7 +349,7 @@
       "login": "Sign in",
       "settings": "Settings"
     },
-    "defaultCurrency": "Default currency",
+    "defaultCurrency": "Currency",
     "messages": "Messages",
     "notification": "Notifications"
   },
@@ -408,8 +389,7 @@
       "from": "Message from"
     },
     "readAll": "Mark all as read",
-    "title": "Notifications",
-    "onDeal": "To the deal"
+    "title": "Notifications"
   },
   "order": {
     "createLot": {
@@ -740,22 +720,22 @@
       "amount": "Amount",
       "commission": "Commission",
       "conflict": "Conflict",
-      "crypto": "Amount in cryptocurrency",
-      "cryptoType": "Cryptocurrency",
-      "currency": "Amount in currency",
-      "date": "Date and time",
-      "dealType": "Deal type",
+      "crypto": "Amount",
+      "cryptoType": "Currency",
+      "currency": "Fiat",
+      "date": "Date",
+      "dealType": "Type",
       "flow": "Movement on balance",
-      "id": "Operation ID",
+      "id": "ID",
       "limit": "Limit",
       "operationType": "Type of operation",
-      "orderType": "Order type",
+      "orderType": "Type",
       "outerAgentId": "External agent ID",
       "outerTransactionId": "External transaction ID",
-      "paymentMethod": "Payment method",
+      "paymentMethod": "Pay type",
       "paymentMethodQpay": "Payment method",
       "price": "Price",
-      "rate": "Exchange rate",
+      "rate": "Rate",
       "rateShort": "rate",
       "rating": "Rating",
       "status": "Status",
@@ -765,10 +745,10 @@
       "enrollment": "Amount (what was exchanged for)"
     },
     "islands": {
-      "amount": "Amount in currency",
+      "amount": "Fiat",
       "buy": "Buy",
       "conflict": "Conflict",
-      "cryptoAmount": "Amount in cryptocurrency",
+      "cryptoAmount": "Amount",
       "deal": "Deal",
       "for": "for",
       "from": "From",
